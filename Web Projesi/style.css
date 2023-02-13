@@ -1,0 +1,286 @@
+*{
+    box-sizing: border-box;
+}
+
+bordy{
+    margin:0;
+    padding:0;
+    background-color: darkgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#social{
+    background-color:#D32F2F;
+    color:wheat;
+    height:55px;
+    width: 100%;
+    position: sticky;
+    top:0;
+    z-index: 1;
+    font-size: 18px;
+    text-align: right;
+    padding:15px;
+	font-family: Lucida Handwriting,serif;
+    
+}
+
+font{
+    float:left;
+    letter-spacing: 2px;
+}
+
+span{
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+#social>i{
+    margin-right:15px;
+}
+
+#social>i:hover{
+    opacity:0.8;
+    
+}
+
+#container{
+    width:100%;
+    margin:auto;
+    height:auto;
+}
+
+header{
+    width:100%;
+    height:250px;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    background-color: black;
+    margin-bottom: 5px;
+}
+
+#headerResim{
+    width:100%;
+    height:250px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    opacity: 0.8;
+}
+
+#centered{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+section{
+    width:100%;
+    height:auto;
+    background-color: #FBE9E7;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+    margin-top: 15px;
+    overflow: auto;
+	
+    
+}
+
+nav{
+    width:20%;
+    float:left;
+    margin-top:10px;
+    height:auto;
+	
+	
+}
+nav ul li{
+	list-style:none;
+	
+	
+}
+
+nav ul{
+    width:auto;
+    height:100%;
+    margin:0;
+    padding:0;
+	
+}
+
+nav ul li a{
+	padding: 10px;
+    display: block;
+    border-bottom:2px solid white;
+	text-decoration:none;
+	color: black;
+	font-size: 16px;
+	font-family:Lucida Handwriting,Cursive,serif;
+	font-weight:300;
+}
+
+}
+
+nav ul li a.active {
+    background-color: #3498db;
+
+    color: white;
+}
+
+nav ul li a:hover:not(.active) {
+    background-color: #d35400;
+
+    color: white;
+}
+
+nav ul li ul{
+	
+	display:none;
+}
+nav ul li:hover ul {
+	display:block;
+	position:absolute;
+    margin:-40px 0 0 250px;
+}
+
+nav ul li ul li a {
+	padding:10px;
+	font-size:16px;
+	background-color:gray;
+	border-bottom:2px solid white;
+	transition:all .3s ease-in-out;
+	width:170px;
+}
+
+nav ul li a:hover {
+	background-color: white;
+	transition:#adadad;
+}
+
+i{
+    margin-right: 10px;
+}
+
+main{
+    float: right;
+    height: auto;
+    width: 80%;
+    padding: 10px;
+}
+
+.icerik{
+    height: 50%;
+    display: inline-block;
+    margin-right: 25px;
+    border-radius: 30px;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+	text-align:justify;
+}
+
+.rsm{
+	border: 5px double black;
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition: opacity 0.8s;
+}
+
+.rsm:hover{
+    opacity:0.6;
+}
+
+h5{
+    margin: 10px;
+    color: dimgray;
+}
+
+.icerikText{
+    margin: 15px;
+    color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align:justify;
+}
+
+.btnDevam:link{
+    display: block;
+    width: 150px;
+    height: 45px;
+    padding:10px 20px;
+    background-color: #0071ce;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 15px;
+    border-radius: 10px;
+	font-size: 16px;
+}
+
+.btnDevam:hover{
+    opacity:0.8;
+}
+
+footer{
+    width: 100%;
+    height: 75px;
+    background-color: #D32F2F;
+    color: white;
+    line-height: 75px;
+    text-align: center;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+}
+
+h1{
+    text-align: center;
+    background-color: #D32F2F;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+}
+
+#kitaplarRSM{
+    width: 300px;
+    height: 300px;
+    float: left;
+    border-radius: 10px;
+    margin: 20px;
+	border: 5px double black;
+}
+
+.hakYazi{
+    margin-right: 15px;
+    font-size: 15px;
+    font-family: Cambria;
+    text-indent: 40px;
+    color: #494949;
+	text-align:justify;
+}
+
+#hayatiRSM{
+    width: 450px;
+    height: 400px;
+    float: left;
+    border-radius: 15px;
+    margin: 25px;
+	border: 5px double black;
+}
+
+.hayatiYazi{
+    margin-right: 15px;
+    font-size: 15px;
+    font-family: Cambria;
+    text-indent: 40px;
+    color: #494949;
+	text-align:justify;
+	
+}
+#slider {
+    width:700px;
+    height:306px;
+    } 
